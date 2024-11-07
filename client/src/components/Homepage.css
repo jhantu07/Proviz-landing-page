@@ -1,0 +1,55 @@
+/* src/components/HomePage.css */
+
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.auth-container form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-container input {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.auth-container button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.auth-container button:hover {
+    background-color: #0056b3;
+}
+
+.auth-container p {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.auth-container p button {
+    background: none;
+    border: none;
+    color: #007BFF;
+    cursor: pointer;
+}
+
+.auth-container p button:hover {
+    text-decoration: underline;
+}
